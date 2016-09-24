@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Scratch | Paulina Kowal landing page</title>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300,500,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
+</head>
+<body>
+
+<div class="title"><p>Zdrap swoją nagrodę!</p></div>
+<div class="scratchie" data-scratchie="css/grey.jpg">
+ <h1>Gratuluję! Wygrałeś!</h1>
+    <p>Rozmowę w cztery oczy o moich umiejętnościach, planach oraz zainteresowaniu Twoją firmą ;-)
+</p>
+    <p>W ramach przygotowania do rozmowy obejrzyj moje portfolio.</p>
+    <p class="telephone">Zadzwoń! 123-456-789</p>
+    <footer>
+        Scratchie plugin by André Ruffert 2014, modified by Paulina Kowal 2016.
+    </footer>
+  <div class="scratchie__secret" style="visibility: hidden;">
+    
+  </div>
+</div>
+
+<div class="landing">
+<p class="landing_info"><a href="http://www.paulinakowal.pl/">Obejrzyj portfolio</a></p></div>
+
+<script src="script/scratchie.js"></script>
+<script>
+(function() {
+
+    var scratchie = new Scratchie('[data-scratchie]', {
+        /*brush: 'brush.png',*/
+        onRenderEnd: function() {
+            // Show the form when Image is loaded.
+            this.element.querySelectorAll('.scratchie__secret')[0].style.visibility = 'visible';
+        },
+        onScratchMove: function(filledInPixels) {
+            //console.log(filledInPixels + '%');
+        }
+    });
+
+    // Global expose
+    window.scratchie = scratchie;
+})();
+    
+
+    
+</script>
+</body>
+</html>

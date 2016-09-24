@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1000px){
+    .scratchie {
+        width: 90%;}
+    
+    [data-scratchie]{
+        width: 90%;}
+}
+
+@media only screen and (max-width: 700px){
+    .scratchie {
+        width: 95%;}
+    
+    [data-scratchie]{
+        width: 95%;}
+    
+    p {
+        font-size: 120%;}
+    
+    .telephone{
+            font-size: 200%;}
+    
+    h1 {
+        font-size: 150%;}
+    
+    footer {
+        font-size: 70%;}
+    
+    .landing-page {
+            font-size: 200%;}
+}
+
+@media only screen and (max-width: 370px){
+    p {
+        font-size: 110%;}
+    
+    .telephone{
+            font-size: 150%;}
+    
+    h1 {
+        font-size: 130%;}
+}

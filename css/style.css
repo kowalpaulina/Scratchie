@@ -1,0 +1,53 @@
+         body {
+             font-family: 'Alegreya Sans', sans-serif;
+             cursor: url(eraser3.png), crosshair;}
+
+       /* .scratchie {
+            width: 70%;
+            height: 65vh;
+            background-color: #b5143e;
+            color: #ffffff;   }*/
+        
+        h1 {
+            text-align: center;
+            padding-top: 2%;
+            font-size: 200%;}
+        
+        p {
+            text-align: center;
+            font-size: 150%;
+            padding-left: 3%;
+            padding-right: 3%;
+            margin-top: 0;}
+        
+        [data-scratchie]{
+            width: 68%;
+            height: 63vh;
+            margin: 0 auto;
+            background-color: #b5143e;
+            color: #ffffff; }
+        
+        .telephone{
+            font-size: 200%;}
+        
+        footer {
+            text-align: center;
+            font-size: 90%;}
+        a {
+            text-decoration: none;
+            color: #ffffff;}
+
+        .landing {
+            margin: 2% auto;}
+
+        .title {
+            margin: 0 auto;
+            color: #b5143e;}
+
+        .landing_info {
+            color: #b5143e;
+            text-decoration:underline;}
+
+        .landing_info a {
+            color: #b5143e;
+            padding: 2%;}
